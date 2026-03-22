@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PG Listings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="listings.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">PG Life</div>
+    <div class="nav-links">
+        <a href="#">Signup</a>
+        <a href="#">Login</a>
+    </div>
+</div>
+
+<!-- Filters -->
+<div class="filters">
+    <div class="filter">🔍 Filter</div>
+    <div class="filter">⬇️ Highest rent first</div>
+    <div class="filter">⬆️ Lowest rent first</div>
+</div>
+
+<!-- Listings -->
+<div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="room">
+
+        <div class="card-content">
+            <h3>Navkar Paying Guest</h3>
+            <p>4th Floor, Andheri, Mumbai</p>
+
+            <div class="price">₹ 9,500 / month</div>
+        </div>
+
+        <button class="view-btn">View</button>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="room">
+
+        <div class="card-content">
+            <h3>PG for Girls Borivali West</h3>
+            <p>Borivali West, Mumbai</p>
+
+            <div class="price">₹ 8,000 / month</div>
+        </div>
+
+        <button class="view-btn">View</button>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2" alt="room">
+
+        <div class="card-content">
+            <h3>Ganpati Paying Guest</h3>
+            <p>Sector 5, Navi Mumbai</p>
+
+            <div class="price">₹ 8,500 / month</div>
+        </div>
+
+        <button class="view-btn">View</button>
+    </div>
+<div class="filters">
+    <div class="filter" onclick="sortByPrice('high')">⬇️ Highest rent first</div>
+    <div class="filter" onclick="sortByPrice('low')">⬆️ Lowest rent first</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div>PG in Delhi | PG in Mumbai | PG in Bangalore | PG in Hyderabad</div>
+    <p>© 2026 PG Life</p>
+</footer>
+
+</body>
+</html>

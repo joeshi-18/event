@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        background-image: url(https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2020/03/13052934/Stranger-Things-Mind-Flayer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width:40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<center>
+<h2 style="color: rgb(245, 234, 234); font-size: 45px;">⚡UPSIDE DOWN⚡</h2>
+<h2 style="color: rgb(234, 226, 226); font-size: 45px;;">Welcome to the upside down !!<br>  Lets get into <br>Book your's now!</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+    VECNA'S CURSE</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://wallpaperaccess.com/full/2123988.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#eae7e7">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display ="none";
+    }
+}
+</script><br>
+<center> <p style="color: white;font-size:large;">DO YOU COPY?</p><iframe width="660" height="415" src="https://www.youtube.com/embed/O5HQ1sZseKg?si=lnzwO7KJSRGyZUg5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+<P style="color: white;text-align: center;font-size:50px ;">Follow our official Instgram page <a href="https://www.instagram.com/strangerthingstv/" >@instagram</a></P>
+<p style="color: white;text-align: center ;font-size: 50px">Get into the world <a href="https://www.Netflix.com">@Netflix</a></p>
+<button id="notifyBtn">Thanks for visiting us </button>
+
+  <script>
+    // Check if the browser supports notifications
+    if ("Notification" in window) {
+      // Request permission on page load
+      Notification.requestPermission().then(permission => {
+        console.log("Notification permission:", permission);
+      });
+
+      // Function to show a notification
+      function showNotification() {
+        if (Notification.permission === "granted") {
+          new Notification("Hello!", {
+            body: "This is a notification from your webpage.",
+            icon: "https://via.placeholder.com/100" // Optional icon
+          });
+        } else {
+          alert("Please allow notifications to see this message.");
+        }
+      }
+
+      // Attach event listener to the button
+      document.getElementById("notifyBtn").addEventListener("click", showNotification);
+    } else {
+      alert("Your browser does not support notifications.");
+    }
+  </script>
+ 
+</html>
+
